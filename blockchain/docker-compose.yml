@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  ganache:
+    image: trufflesuite/ganache:latest
+    container_name: ganache
+    ports:
+      - "8545:8545"
+    command: >
+      --accounts 10
+      --defaultBalanceEther 100
+      --deterministic
+    restart: always
