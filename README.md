@@ -162,11 +162,15 @@ Vérifier avec docker run hello-world
 
 
 
+*** Lancer le docker => docker-compose up -d ***
+
+Vérifier que les 2 conteneurs tournent => docker-compose ps
 
 
 
+Lancer une transaction => node transaction.js
 
-
+Voir l'historique => node historique.js
 
 
 
